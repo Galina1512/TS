@@ -25,9 +25,14 @@ const persons = [
         age: 36,
         group: 'тестировщик',
     },
+    {
+        name: "Максим Лескин",
+        age: 35,
+        role: 'admin',
+    },
 ];
-const logPerson = (user) => {
-    console.log(`${user.name}, ${user.age}`);
+const logPerson = (person) => {
+    console.log(`${person.name}, ${person.age}`);
 };
 console.log('Users:');
 persons.forEach(logPerson);
