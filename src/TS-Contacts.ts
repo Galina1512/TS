@@ -11,7 +11,6 @@ interface Admin  {
   }
 
   interface UserWithAdmin extends User, Admin {
-    // information: string;
   }
 const persons: UserWithAdmin[] = [
   {
