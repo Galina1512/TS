@@ -24,9 +24,4 @@ export interface User {
       return this.userList.find((user) => user.id === id) || null;
     }
   
-    public sorted(sortType: "increase" | "decreasing" = "increase"): T[] {
-      return this.userList.sort((a, b) =>
-        sortType === "increase" ? a.id - b.id : b.id - a.id
-      );
-    }
   }

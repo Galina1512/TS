@@ -16,8 +16,5 @@ class Users {
     get = (id) => {
         return this.userList.find((user) => user.id === id) || null;
     };
-    sorted(sortType = "increase") {
-        return this.userList.sort((a, b) => sortType === "increase" ? a.id - b.id : b.id - a.id);
-    }
 }
 exports.Users = Users;

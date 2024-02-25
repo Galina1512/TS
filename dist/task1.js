@@ -53,10 +53,6 @@ console.log("");
 console.log("Студент с id=4");
 console.log(students.get(4));
 console.log("");
-console.log("Список после сортировки по id");
-students.sorted("decreasing");
-console.log(students);
-console.log("");
 const employees = new Employees_1.Employees();
 employees.add({
     id: 10,
